@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: datasphere
+    env: docker
+    region: singapore
+    plan: free
+    dockerfilePath: ./Dockerfile
